@@ -15,7 +15,7 @@
 }
 
 - (void)test3 {
-    XCTAssertEqualObjects([[Dates new] textForDay:@"1" month:@"11" year:@"1998"], @"18 ноября, четверг");
+    XCTAssertEqualObjects([[Dates new] textForDay:@"19" month:@"11" year:@"1998"], @"19 ноября, четверг");
 }
 
 - (void)test4 {
